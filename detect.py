@@ -5,7 +5,7 @@ from Numberplate import process
 
 
 # Giving title in our web app
-st.title("Number plate Detection")
+st.title("Number plate Detection for 4-wheelers")
 
 # Detect characters on the Number Plate
 def detect(image_path):
