@@ -46,4 +46,4 @@ def process(image_path):
     # result
 
     text = result[0][-2]
-    return text
+    return text.upper()
