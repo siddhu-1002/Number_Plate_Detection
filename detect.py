@@ -5,7 +5,7 @@ from Numberplate import process
 
 
 # Giving title in our web app
-st.title("Number plate Detection for 4-wheelers")
+st.title("Number plate Detection")
 
 # Detect characters on the Number Plate
 def detect(image_path):
@@ -28,11 +28,11 @@ file = st.file_uploader(label="Select the image", accept_multiple_files=False)
 
 if file is not None:
     
-#     if file.name not in os.listdir("Number plates"):
-    save_uploadedfile(file)
-    st.write("File Saved successfully")
-    st.image("Number plates/" + file.name)
-    detect("Number plates/" + file.name)
-#     else:
-#         st.image("Number plates/" + file.name)
-#         detect("Number plates/" + file.name)
+    if file.name not in os.listdir("Number plates"):
+        save_uploadedfile(file)
+        st.write("File Saved successfully")
+        st.image("Number plates/" + file.name)
+        detect("Number plates/" + file.name)
+    else:
+        st.image("Number plates/" + file.name)
+        detect("Number plates/" + file.name)
