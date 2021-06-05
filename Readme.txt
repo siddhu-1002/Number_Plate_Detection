@@ -2,13 +2,11 @@
 
 
 For running the Number Plate Recognition in your System, you will need : 
-1) Python - Version 3.8.5 
-   You can download it using this link "https://www.python.org/downloads/release/python-385/". After you go to this link
+1) Python - Version 3.9.0 
+   You can download it using this link "https://www.python.org/ftp/python/3.9.0/python-3.9.0.exe". After you go to this link
    you can select the Operating system on which you want to use this system.
 
-   A) for AMD64/EM64T/x64 - Follow this link - "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64-webinstall.exe"
-
-2) Once you have installed the python - version 3.8.5, Now you will need to Download suitable IDE such as Pycharm, 
+2) Once you have installed the python - version 3.9.0, Now you will need to Download suitable IDE such as Pycharm, 
    Visual Studio Code, etc.
    I had used Pycharm wile running this on my system : To download Pycharm, 
    follow this link "https://www.jetbrains.com/pycharm/download/#section=windows"
